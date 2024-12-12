@@ -69,7 +69,7 @@ layers:
   - )
   - _
   - {t: '$$mdi:transfer$$', type: trans}
-  - \
+  - {t: \, s: '|'}
   - '|'
   - '{'
   - {t: '[', s: '{'}
