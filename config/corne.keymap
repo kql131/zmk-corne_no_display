@@ -41,10 +41,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E     &kp R      &kp T          &kp Y        &kp U         &kp I      &kp O    &kp P     &kp DEL
-&kp LCTRL   &kp A  &kp S  &kp D     &kp F      &kp G          &kp H        &kp J         &kp K      &kp L    &kp SEMI  &kp SQT
-&td0        &kp Z  &kp X  &kp C     &kp V      &kp B          &kp N        &kp M         &kp COMMA  &kp DOT  &kp FSLH  &td0
-                          &kp LGUI  &lt 1 TAB  &lt 3 SPACE    &lt 3 ENTER  &lt 2 K_BACK  &kp RALT
+&kp ESCAPE  &kp Q  &kp W  &kp E     &kp R      &kp T          &kp Y        &kp U            &kp I      &kp O    &kp P     &kp DEL
+&kp LCTRL   &kp A  &kp S  &kp D     &kp F      &kp G          &kp H        &kp J            &kp K      &kp L    &kp SEMI  &kp SQT
+&td0        &kp Z  &kp X  &kp C     &kp V      &kp B          &kp N        &kp M            &kp COMMA  &kp DOT  &kp FSLH  &td0
+                          &kp LGUI  &lt 1 TAB  &lt 3 SPACE    &lt 3 ENTER  &lt 2 BACKSPACE  &kp RALT
             >;
         };
 
@@ -75,10 +75,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp F1        &kp F2        &kp F3          &kp F4      &kp F5        &kp F6      &kp F7          &kp F8        &kp F9           &kp F10   &kp F11
-&trans  &kp C_STOP    &kp C_PLAY    &kp C_PREVIOUS  &kp C_NEXT  &kp C_MUTE    &kp LEFT    &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME  &kp F12
-&trans  &out OUT_USB  &out OUT_BLE  &none           &none       &none         &kp K_BACK  &kp PAGE_DOWN   &kp PG_UP     &kp K_FORWARD    &kp END   &kp TILDE
-                                    &trans          &trans      &kp SPACE     &kp RET     &trans          &trans
+&trans  &kp F1            &kp F2            &kp F3      &kp F4      &kp F5        &kp F6      &kp F7          &kp F8        &kp F9           &kp F10   &kp F11
+&trans  &kp K_PLAY_PAUSE  &kp C_PLAY_PAUSE  &kp C_PREV  &kp C_NEXT  &kp C_MUTE    &kp LEFT    &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME  &kp F12
+&trans  &out OUT_USB      &out OUT_BLE      &none       &none       &none         &kp K_BACK  &kp PAGE_DOWN   &kp PG_UP     &kp K_FORWARD    &kp END   &kp TILDE
+                                            &trans      &trans      &kp SPACE     &kp RET     &trans          &trans
             >;
         };
 
