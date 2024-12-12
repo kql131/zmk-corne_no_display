@@ -15,14 +15,14 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-control$$
   - A
-  - S
-  - D
-  - F
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
   - G
   - H
-  - J
-  - K
-  - L
+  - {t: J, h: RIGHT GUI}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - '&td0'
