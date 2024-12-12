@@ -117,10 +117,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - BACK
+  - AC BACK
   - PgDn
   - PG UP
-  - FORWARD
+  - AC FORWARD
   - END
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
