@@ -79,7 +79,7 @@ layers:
   - '}'
   - {t: '=', s: +}
   - +
-  - PG DN
+  - '?'
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
