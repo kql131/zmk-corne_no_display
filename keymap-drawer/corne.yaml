@@ -15,9 +15,9 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-control$$
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '&mt LCTRL'}
+  - D
+  - F
   - G
   - H
   - {t: J, h: RIGHT GUI}
