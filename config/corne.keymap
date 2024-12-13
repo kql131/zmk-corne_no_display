@@ -33,9 +33,11 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "tap-unless-interrupted";
+            tapping-term-ms = <100>;
+            flavor = "balanced";
             hold-trigger-key-positions = <6 18 30 19 31 8 20 32 7 9 21 33 10 22 34 11 23 35>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <500>;
         };
 
         hrm_right: hrm_right {
@@ -44,9 +46,11 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "tap-unless-interrupted";
+            tapping-term-ms = <100>;
+            flavor = "balanced";
             hold-trigger-key-positions = <0 1 13 25 12 24 26 14 3 15 2 27 16 4 5 17 29 28>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <500>;
         };
     };
 
