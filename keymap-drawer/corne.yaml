@@ -109,7 +109,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - HOME
+  - BACK
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
@@ -117,11 +117,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - AC BACK
+  - HOME
   - PgDn
   - PG UP
-  - AC FORWARD
   - END
+  - FORWARD
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
